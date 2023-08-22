@@ -1,0 +1,23 @@
+размеры экрана из figma
+Width: 375
+Height: 812
+(это размеры 13 mini)
+
+Размеры Characters:
+    Width: 156
+    Height: 202
+    
+    Размер текста "Characters"
+        шрифт title 2
+        font Gilroy
+        size 28
+        цвет белый
+        
+        Размер имен
+            Шрифт title 5
+            font Gilroy
+            size 17
+    
+    Размер изображения:
+            Width: 140
+            Height: 140
