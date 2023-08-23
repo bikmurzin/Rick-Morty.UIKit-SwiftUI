@@ -17,6 +17,7 @@ struct EpisodesView: View {
                 .foregroundColor(.white)
                 .font(.system(size: 17))
                 .bold()
+            
                 ForEach(episodes) { episode in
                     ZStack {
                         SectionBackgroundView(size: CGSize(width: 327 * sizeProportion.width, height: 86 * sizeProportion.height), cornerRadius: 16)
@@ -25,7 +26,8 @@ struct EpisodesView: View {
                                 .foregroundColor(.white)
                                 .font(.system(size: 17))
                             HStack {
-                                Text(episode.episode)
+                                let numbers = episodeParsing(stringToParsing: episode.episode)
+                                Text("Episode: \(numbers.1), Season: \(numbers.0)")
                                     .foregroundColor(Color(red: 71/255, green: 198/255, blue: 11/255))
                                     .font(.system(size: 13))
                                 Spacer()
@@ -40,6 +42,20 @@ struct EpisodesView: View {
                     .frame(width: 327 * sizeProportion.width, height: 86 * sizeProportion.height)
                 }
         }
+    }
+    
+    func episodeParsing(stringToParsing: String) -> (Int, Int) {
+        if let episodeIndex = stringToParsing.firstIndex(of: "E") {
+            var seasonString = stringToParsing[..<episodeIndex]
+            var episodeString = stringToParsing[episodeIndex...]
+            seasonString.removeFirst()
+            episodeString.removeFirst()
+            if let unwrSeasonNumber = Int(seasonString),
+               let unwrEpisodeNumber = Int(episodeString) {
+                return (unwrSeasonNumber, unwrEpisodeNumber)
+            }
+        }
+        return (0, 0)
     }
 }
 

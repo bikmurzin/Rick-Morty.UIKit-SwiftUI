@@ -49,7 +49,7 @@ class CharactersView: UIView, UICollectionViewDelegate, UICollectionViewDataSour
         height = self.bounds.height
         width = self.bounds.width
         NSLayoutConstraint.activate([
-            title.topAnchor.constraint(equalTo: topAnchor, constant: 30),
+            title.topAnchor.constraint(equalTo: topAnchor, constant: 60),
             title.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20)
         ])
         NSLayoutConstraint.activate([

@@ -43,7 +43,6 @@ struct DetailsScreen: View {
                         }
                         .task {
                             if let stringURL = character.origin?.url{
-                                print("character.origin?.url: \(character.origin?.url)")
                                 loadLocation(stringURL: stringURL)
                             }
                             if let urlArray = character.episode {
@@ -51,7 +50,10 @@ struct DetailsScreen: View {
                             }
                             group.notify(queue: queue) {
                                 isLoading = false
-                                print("Done")
+                                episodes.sort { ep1, ep2 in
+                                    ep1.id < ep2.id
+                                }
+                                print(episodes)
                             }
                         }
                     }
@@ -66,15 +68,11 @@ struct DetailsScreen: View {
     }
     
     func loadLocation(stringURL: String?) {
-        print("Loading location...")
         guard let stringURL = stringURL else {
             print("Invalid URL")
             return
         }
-        
-        print("stringURL: \(stringURL)")
         let url = URL(string: stringURL)
-        print("URL: \(url)")
         group.enter()
         queue.async {
             if stringURL.isEmpty {
@@ -89,7 +87,6 @@ struct DetailsScreen: View {
                     } else {
                         print("data is invalid")
                     }
-                    print("Location loaded")
                     group.leave()
                 } else {
                     print("Network request failed")
@@ -100,7 +97,6 @@ struct DetailsScreen: View {
     }
     
     func loadEpisodes(stringURLArray: [String?]) {
-        print("Loading episodes...")
         for stringURL in stringURLArray {
             if let stringURL = stringURL {
                 let url = URL(string: stringURL)
@@ -113,7 +109,6 @@ struct DetailsScreen: View {
                                 networkLayer.dataTransformation(object: &episode, data: data)
                                 if let unwrEpisode = episode {
                                     episodes.append(unwrEpisode)
-                                    print("Episode \(unwrEpisode.id) loaded")
                                 }
                             }
                             
