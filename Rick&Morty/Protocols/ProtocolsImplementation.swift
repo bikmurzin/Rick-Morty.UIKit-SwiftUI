@@ -44,7 +44,7 @@ extension ViewController: ViewControllerDelegateForModel {
 
 extension ViewController: ViewControllerDelegateForCharactersView {
     func showDetailView(character: Personage) {
-        let host = UIHostingController(rootView: DetailsScreen(character: character))
+        let host = UIHostingController(rootView: MainScreen(character: character))
         navigationController?.pushViewController(host, animated: true)
     }
     

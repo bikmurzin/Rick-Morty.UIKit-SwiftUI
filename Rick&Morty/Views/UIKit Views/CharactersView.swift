@@ -100,6 +100,5 @@ class CharactersView: UIView, UICollectionViewDelegate, UICollectionViewDataSour
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         guard let character = characters?.results[indexPath.row] else {return}
         delegate?.showDetailView(character: character)
-        print("character: \(character.origin)")
     }
 }

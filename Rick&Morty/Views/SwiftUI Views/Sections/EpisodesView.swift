@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct EpisodesView: View {
+    @EnvironmentObject var detailsModel: DetailsModel
     var sizeProportion: CGSize
-    var episodes: [Episode]
     
     var body: some View {
         VStack(alignment: .leading, spacing: 16 * sizeProportion.height) {
@@ -18,7 +18,7 @@ struct EpisodesView: View {
                 .font(.system(size: 17))
                 .bold()
             
-                ForEach(episodes) { episode in
+            ForEach(detailsModel.episodes) { episode in
                     ZStack {
                         SectionBackgroundView(size: CGSize(width: 327 * sizeProportion.width, height: 86 * sizeProportion.height), cornerRadius: 16)
                         VStack(alignment: .leading, spacing: 16) {
@@ -64,13 +64,8 @@ struct EpisodesView_Previews: PreviewProvider {
         ZStack {
             Color(red: 4/255, green: 13/255, blue: 30/255)
                 .ignoresSafeArea()
-            EpisodesView(
-                sizeProportion: CGSize(width: 1, height: 1),
-                episodes: [
-                    Episode(id: 1, name: "Pilot", air_date: "December 2, 2013", episode: "Episode: 1, Season: 1"),
-                    Episode(id: 2, name: "Lawnmower Dog", air_date: "December 9, 2013", episode: "Episode: 2, Season: 1"),
-                    Episode(id: 3, name: "Anatomy Park", air_date: "December 16, 2013", episode: "Episode: 3, Season: 1")
-                ])
+            EpisodesView(sizeProportion: CGSize(width: 1, height: 1))
+            .environmentObject(DetailsModel())
         }
     }
 }

@@ -8,10 +8,9 @@
 import SwiftUI
 
 struct OriginView: View {
+    @EnvironmentObject var detailsModel: DetailsModel
     var sizeProportion: CGSize
-    var name: String?
-    var type: String?
-    
+
     var body: some View {
         VStack(alignment: .leading, spacing: 16 * sizeProportion.height) {
             Text("Origin")
@@ -34,11 +33,11 @@ struct OriginView: View {
                     .padding(.leading, 8)
                     
                     VStack(alignment: .leading, spacing: 8 * sizeProportion.height) {
-                        Text(name ?? "None")
+                        Text(detailsModel.location.name ?? "None")
                             .foregroundColor(.white)
                             .font(.system(size: 17))
                             .bold()
-                        Text(type ?? "None")
+                        Text(detailsModel.location.type ?? "None")
                             .foregroundColor(Color(red: 71/255, green: 198/255, blue: 11/255))
                             .font(.system(size: 13))
                     }
@@ -55,7 +54,8 @@ struct OriginView_Previews: PreviewProvider {
         ZStack {
             Color(red: 4/255, green: 13/255, blue: 30/255)
                 .ignoresSafeArea()
-            OriginView(sizeProportion: CGSize(width: 1, height: 1), name: "Earth", type: "Planet")
+            OriginView(sizeProportion: CGSize(width: 1, height: 1))
+                .environmentObject(DetailsModel())
         }
     }
 }

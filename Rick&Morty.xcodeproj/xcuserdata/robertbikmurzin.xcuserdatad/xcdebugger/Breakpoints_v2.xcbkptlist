@@ -7,192 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "36694E51-6D8A-4B76-AD70-173E3FFB74C7"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Rick&amp;Morty/Views/SwiftUI Views/DetailsScreen.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
-            landmarkName = "loadLocation(stringURL:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "36694E51-6D8A-4B76-AD70-173E3FFB74C7 - 4a7e26c0a1b1f9da"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in Rick_Morty.DetailsScreen.loadLocation(stringURL: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
-                  moduleName = "Rick&amp;Morty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/robertbikmurzin/Desktop/learning/Portfolio/Rick&amp;Morty/Rick&amp;Morty/Views/SwiftUI%20Views/DetailsScreen.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "76"
-                  endingLineNumber = "76"
-                  offsetFromSymbolStart = "115">
-               </Location>
-               <Location
-                  uuid = "36694E51-6D8A-4B76-AD70-173E3FFB74C7 - 4a7e26c0a1b1f9da"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in Rick_Morty.DetailsScreen.loadLocation(stringURL: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
-                  moduleName = "Rick&amp;Morty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/robertbikmurzin/Desktop/learning/Portfolio/Rick&amp;Morty/Rick&amp;Morty/Views/SwiftUI%20Views/DetailsScreen.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "76"
-                  endingLineNumber = "76"
-                  offsetFromSymbolStart = "154">
-               </Location>
-               <Location
-                  uuid = "36694E51-6D8A-4B76-AD70-173E3FFB74C7 - b28d3a7bb7694531"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Rick_Morty.DetailsScreen.loadLocation(stringURL: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
-                  moduleName = "Rick&amp;Morty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/robertbikmurzin/Desktop/learning/Portfolio/Rick&amp;Morty/Rick&amp;Morty/Views/SwiftUI%20Views/DetailsScreen.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "80"
-                  endingLineNumber = "80"
-                  offsetFromSymbolStart = "1499">
-               </Location>
-               <Location
-                  uuid = "36694E51-6D8A-4B76-AD70-173E3FFB74C7 - 4a7e26c0a1b1fa5e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in Rick_Morty.DetailsScreen.loadLocation(stringURL: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
-                  moduleName = "Rick&amp;Morty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/robertbikmurzin/Desktop/learning/Portfolio/Rick&amp;Morty/Rick&amp;Morty/Views/SwiftUI%20Views/DetailsScreen.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "80"
-                  endingLineNumber = "80"
-                  offsetFromSymbolStart = "154">
-               </Location>
-               <Location
-                  uuid = "36694E51-6D8A-4B76-AD70-173E3FFB74C7 - 4a7e26c0a1b1fa7f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in Rick_Morty.DetailsScreen.loadLocation(stringURL: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
-                  moduleName = "Rick&amp;Morty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/robertbikmurzin/Desktop/learning/Portfolio/Rick&amp;Morty/Rick&amp;Morty/Views/SwiftUI%20Views/DetailsScreen.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "79"
-                  endingLineNumber = "79"
-                  offsetFromSymbolStart = "154">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2BD250C4-3688-4E60-8E7E-95A19BC5F26D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Rick&amp;Morty/Views/SwiftUI Views/DetailsScreen.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
-            landmarkName = "loadLocation(stringURL:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "2BD250C4-3688-4E60-8E7E-95A19BC5F26D - 4a7e26c0a1b1fb10"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in Rick_Morty.DetailsScreen.loadLocation(stringURL: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
-                  moduleName = "Rick&amp;Morty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/robertbikmurzin/Desktop/learning/Portfolio/Rick&amp;Morty/Rick&amp;Morty/Views/SwiftUI%20Views/DetailsScreen.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "86"
-                  endingLineNumber = "86"
-                  offsetFromSymbolStart = "383">
-               </Location>
-               <Location
-                  uuid = "2BD250C4-3688-4E60-8E7E-95A19BC5F26D - 4a7e26c0a1b1fb31"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in Rick_Morty.DetailsScreen.loadLocation(stringURL: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
-                  moduleName = "Rick&amp;Morty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/robertbikmurzin/Desktop/learning/Portfolio/Rick&amp;Morty/Rick&amp;Morty/Views/SwiftUI%20Views/DetailsScreen.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "85"
-                  endingLineNumber = "85"
-                  offsetFromSymbolStart = "440">
-               </Location>
-               <Location
-                  uuid = "2BD250C4-3688-4E60-8E7E-95A19BC5F26D - 4b7f5a8c97b8a5df"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Foundation.Data&gt;) -&gt; () in closure #1 () -&gt; () in Rick_Morty.DetailsScreen.loadLocation(stringURL: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
-                  moduleName = "Rick&amp;Morty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/robertbikmurzin/Desktop/learning/Portfolio/Rick&amp;Morty/Rick&amp;Morty/Views/SwiftUI%20Views/DetailsScreen.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "86"
-                  endingLineNumber = "86"
-                  offsetFromSymbolStart = "133">
-               </Location>
-               <Location
-                  uuid = "2BD250C4-3688-4E60-8E7E-95A19BC5F26D - 4a7e26c0a1b1fad2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in Rick_Morty.DetailsScreen.loadLocation(stringURL: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
-                  moduleName = "Rick&amp;Morty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/robertbikmurzin/Desktop/learning/Portfolio/Rick&amp;Morty/Rick&amp;Morty/Views/SwiftUI%20Views/DetailsScreen.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
-                  offsetFromSymbolStart = "440">
-               </Location>
-               <Location
-                  uuid = "2BD250C4-3688-4E60-8E7E-95A19BC5F26D - 4b7f5a8c97b8a5fe"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Foundation.Data&gt;) -&gt; () in closure #1 () -&gt; () in Rick_Morty.DetailsScreen.loadLocation(stringURL: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
-                  moduleName = "Rick&amp;Morty"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/robertbikmurzin/Desktop/learning/Portfolio/Rick&amp;Morty/Rick&amp;Morty/Views/SwiftUI%20Views/DetailsScreen.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "85"
-                  endingLineNumber = "85"
-                  offsetFromSymbolStart = "133">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "9940C61D-24B2-4867-9F7E-8FF0D33F783C"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -200,8 +14,8 @@
             filePath = "Rick&amp;Morty/Views/SwiftUI Views/DetailsScreen.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>
@@ -248,8 +62,8 @@
             filePath = "Rick&amp;Morty/Views/SwiftUI Views/DetailsScreen.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "11"
-            endingLineNumber = "11"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
             landmarkName = "DetailsScreen"
             landmarkType = "14">
          </BreakpointContent>

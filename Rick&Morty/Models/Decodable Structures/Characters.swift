@@ -36,6 +36,6 @@ struct Personage: Decodable {
 }
 
 struct Origin: Decodable {
-    var name: String?
-    var url: String?
+    var name: String
+    var url: String
 }
